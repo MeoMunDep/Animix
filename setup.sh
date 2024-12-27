@@ -54,9 +54,9 @@ check_configs() {
 
 while true; do
     clear
-    echo "================================="
-    echo "    name BOT SETUP AND RUN SCRIPT"
-    echo "================================="
+    echo "==================================================="
+    echo "    Animix BOT SETUP AND RUN SCRIPT by @MeoMunDep"
+    echo "==================================================="
     echo
     echo "Current directory: $(pwd)"
     echo "Node modules directory: $MODULES_DIR/node_modules"
@@ -115,7 +115,7 @@ while true; do
             else
                 print_green "Using node_modules from current directory"
             fi
-            node bot
+            cd animix && node bot
             read -p "Press Enter to continue..."
             ;;
         4)
