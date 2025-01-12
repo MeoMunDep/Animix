@@ -13,9 +13,9 @@ if exist node_modules (
 
 :MENU
 cls
-echo ==========================================
+echo ==========================================================
 echo    Animix BOT SETUP AND RUN SCRIPT by @MeoMunDep
-echo ==========================================
+echo ==========================================================
 echo.
 echo Current directory: %CD%
 echo Parent node_modules: %~dp0..\node_modules
@@ -83,7 +83,7 @@ if exist "..\node_modules" (
 ) else (
     echo Using node_modules from current directory
 )
-cd animix && node bot
+node MeoMunDep
 pause
 goto MENU
 

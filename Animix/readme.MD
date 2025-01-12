@@ -59,12 +59,11 @@ This file controls the bot’s behavior. Below is an example configuration:
   "rotateProxy": false,
   "skipInvalidProxy": false,
   "proxyRotationInterval": 2,
-  "delayEachAccount": [5, 8],
+  "delayEachAccount": [1, 81],
   "timeToRestartAllAccounts": 300,
-  "howManyAccountsRunInOneTime": 100,
+  "howManyAccountsRunInOneTime": 10,
   "doTasks": true,
-  "playGames": true,
-  "referralCode": ""
+  "mixingPets": true
 }
 ```
 
@@ -77,8 +76,7 @@ This file controls the bot’s behavior. Below is an example configuration:
   - `timeToRestartAllAccounts`: Time (in seconds) to restart all accounts.
   - `howManyAccountsRunInOneTime`: Number of accounts to run simultaneously.
   - `doTasks`: Enable task completion.
-  - `playGames`: Enable game-playing feature.
-  - `referralCode`: Add your referral code (optional). Do not change it if you want to support me ^^
+  - `mixingPets`: Enable mixing pets.
 
 ### 2. `datas.txt` - 🗂️ User Data
 
@@ -93,6 +91,9 @@ query_id.../user...
 _Note: Each row for each account_
 
 ### 3. `wallets.txt` - 💼 Wallet Addresses
+
+- Wallets generator: [Link](https://github.com/MeoMunDep/Automatic-Ultimate-Create-Wallets-for-Airdrop)
+
 
 Add your wallet addresses in the following format:
 
@@ -129,7 +130,7 @@ _Note: each row for each account_
 
 2. Run the bot using the following command:
    ```bash
-   node bot
+   node meomundep
    ```
 
 ---
