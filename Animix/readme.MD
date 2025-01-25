@@ -64,7 +64,8 @@ This file controls the bot’s behavior. Below is an example configuration:
   "howManyAccountsRunInOneTime": 10,
   "doTasks": true,
   "mixingPets": true,
-  "battles": true
+  "battles": true,
+  "claimAchievements": true
 }
 ```
 
@@ -79,6 +80,7 @@ This file controls the bot’s behavior. Below is an example configuration:
   - `doTasks`: Enable task completion.
   - `mixingPets`: Enable mixing pets.
   - `battles`: Enable battling.
+  - `claimAchievements`: Enable claiming achievements.
 ### 2. `datas.txt` - 🗂️ User Data
 
 Download the `datas.txt` file from [here](https://t.me/KeoAirDropFreeNe/257/6879). This file contains user data in the following format:
