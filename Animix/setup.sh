@@ -39,7 +39,8 @@ create_default_configs() {
   "howManyAccountsRunInOneTime": 10,
   "doTasks": true,
   "mixingPets": true,
-  "battles": true
+  "battles": true,
+  "claimAchievements": true
 }
 EOL
 }
