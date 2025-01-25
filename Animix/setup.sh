@@ -34,12 +34,12 @@ create_default_configs() {
   "rotateProxy": false,
   "skipInvalidProxy": false,
   "proxyRotationInterval": 2,
-  "delayEachAccount": [1, 81],
+  "delayEachAccount": [1, 1],
   "timeToRestartAllAccounts": 300,
   "howManyAccountsRunInOneTime": 10,
   "doTasks": true,
-  "playGames": true,
-  "referralCode": ""
+  "mixingPets": true,
+  "battles": true
 }
 EOL
 }
