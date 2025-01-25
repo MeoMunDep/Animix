@@ -59,11 +59,12 @@ This file controls the bot’s behavior. Below is an example configuration:
   "rotateProxy": false,
   "skipInvalidProxy": false,
   "proxyRotationInterval": 2,
-  "delayEachAccount": [1, 81],
+  "delayEachAccount": [1, 1],
   "timeToRestartAllAccounts": 300,
   "howManyAccountsRunInOneTime": 10,
   "doTasks": true,
-  "mixingPets": true
+  "mixingPets": true,
+  "battles": true
 }
 ```
 
@@ -77,7 +78,7 @@ This file controls the bot’s behavior. Below is an example configuration:
   - `howManyAccountsRunInOneTime`: Number of accounts to run simultaneously.
   - `doTasks`: Enable task completion.
   - `mixingPets`: Enable mixing pets.
-
+  - `battles`: Enable battling.
 ### 2. `datas.txt` - 🗂️ User Data
 
 Download the `datas.txt` file from [here](https://t.me/KeoAirDropFreeNe/257/6879). This file contains user data in the following format:
