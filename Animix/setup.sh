@@ -40,7 +40,8 @@ create_default_configs() {
   "doTasks": true,
   "mixingPets": true,
   "battles": true,
-  "claimAchievements": true
+  "claimAchievements": true,
+  "doMissions": true
 }
 EOL
 }
