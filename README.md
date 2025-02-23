@@ -79,6 +79,7 @@ This file controls the bot’s behavior. Below is an example configuration:
   - `timeToRestartAllAccounts`: Time (in seconds) to restart all accounts.
   - `howManyAccountsRunInOneTime`: Number of accounts to run simultaneously.
   - `doTasks`: Enable task completion.
+  - `doMissions`: Enable mission completion.
   - `mixingPets`: Enable mixing pets.
   - `battles`: Enable battling.
   - `claimAchievements`: Enable claiming achievements.
