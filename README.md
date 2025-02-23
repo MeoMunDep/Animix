@@ -65,7 +65,8 @@ This file controls the bot’s behavior. Below is an example configuration:
   "doTasks": true,
   "mixingPets": true,
   "battles": true,
-  "claimAchievements": true
+  "claimAchievements": true,
+  "doMissions": true
 }
 ```
 
