@@ -140,7 +140,7 @@ _Note: each row for each account_
 1. Navigate to the folder containing the bot files:
 
    ```bash
-   cd /path/to/bot-folder
+   cd /path/to/animix
    ```
 
 2. Run the bot using the following command:
